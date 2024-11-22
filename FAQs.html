@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Trippo Bazaar</title>
+</head>
+
+<body>
+    <section id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-logo" href="destination.html"><img src="./assets/images/trippo_logo.png"></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <div class="header_btn">
+                                <a>
+                                    <svg class="m-2" width="17" height="14" viewBox="0 0 17 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 12.3947H6.35714M1 6.89465H11.1786M1 1.39465H16" stroke="black"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    Menu
+                                </a>
+                            </div>
+                        </label>
+                        <ul class="menu__box">
+                            <li><a class="menu__item" href="my_profile.html">My Profile</a></li>
+                            <li><a class="menu__item" href="#">My Bookings</a></li>
+                            <li><a class="menu__item" href="privacy_policy.html">Privacy Policy</a></li>
+                            <li><a class="menu__item" href="careers.html">Careers</a></li>
+                            <li><a class="menu__item active" href="FAQs.html">FAQs</a></li>
+                            <li><a class="menu__item" href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!-- <a href="login_form.html" class="header_login_btn">Log in/Sign up</a> -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="destination.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                DESTINATIONS
+                                <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="header_desti_lists">
+                                    <div class="header_india_lists">
+                                        <li>
+                                            <p class="dropdown-item">India</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="gujarat.html">Gujarat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="goa.html">Goa</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="bhutan.html">Bhutan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="kerala.html">Kerala</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="leh-ladakh.html">Leh - Ladakh</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="himachal.html">Himachal</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="rajasthan.html">Rajasthan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="uttarakhand.html">Uttarakhand</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="sikkim.html">Sikkim</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="nepal.html">Nepal</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="odisha.html">Odisha</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="lakshadweep-island.html">Lakshadweep
+                                                Island</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="madhya-pradesh.html">Madhya Pradesh</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="uttar-pradesh.html">Uttar Pradesh</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="northeast.html">Northeast</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="northkerala.html">North Kerala</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="karnataka-south-india.html">Karnataka & South
+                                                India</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="golden-triangle.html">Golden Triangle</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="maharashtra.html">Maharashtra</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="andaman.html">Andaman</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="kashmir.html">Kashmir</a>
+                                        </li>
+                                    </div>
+                                    <div class="header_india_lists">
+                                        <li>
+                                            <p class="dropdown-item">Asia</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="vietnam.html">Vietnam</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="srilanka.html">Sri Lanka</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="singapore.html">Singapore</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="maldives.html">Maldives</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="phillippines.html">Phillippines</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="thailand.html">Thailand</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="japan.html">Japan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="malaysia.html">Malaysia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="southkorea.html">South Korea</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="bali.html">Bali</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="hongkong.html">Hong Kong</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="macau.html">Macau</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="china.html">China</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="singapore-bali.html">Singapore Bali</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="singapore-malaysia.html">Singapore
+                                                Malaysia</a>
+                                        </li>
+
+                                        <li class="mt-2">
+                                            <p class="dropdown-item">Australia & NZ</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="new-zealand.html">New Zealand</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="fiji-borabora.html">Fiji & Bora Bora</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="australia.html">Australia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="tasmania.html">Tasmania</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="nauru.html">Nauru</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="auckland.html">Auckland</a>
+                                        </li>
+                                    </div>
+                                    <div class="header_india_lists">
+                                        <li>
+                                            <p class="dropdown-item">Central Europe</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="uk-scotland.html">UK - Scotland</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="scandinavia.html">Scandinavia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ireland.html">Ireland</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="austria.html">Austria</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="all-of-europe.html">All Of Europe</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="switzerland-paris.html">Switzerland -
+                                                Paris</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="netherlands.html">Netherlands</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="spain.html">Spain</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="switzerland.html">Switzerland</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="italy.html">Italy</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="norway.html">Norway</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="iceland.html">Iceland</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="germany.html">Germany</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="france.html">France</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="finland.html">Finland</a>
+                                        </li>
+                                    </div>
+                                    <div class="header_domestic_lists">
+                                        <li>
+                                            <p class="dropdown-item">Africa</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="egypt.html">Egypt</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="morocco.html">Morocco</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="uganda.html">Uganda</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="zambia.html">Zambia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="mauritius.html">Mauritius</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="kenya.html">Kenya</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="south-africa.html">South Africa</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="tanzania.html">Tanzania</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="botswana.html">Botswana</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="seychelles.html">Seychelles</a>
+                                        </li>
+
+                                        <li class="mt-2">
+                                            <p class="dropdown-item">Middle East</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="uzbekistan.html">Uzbekistan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="georgia.html">Georgia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="saudi-arabia.html">Saudi Arabia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="kazakhastan.html">Kazakhastan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="israel-jordan.html">Israel - Jordan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="UAE-dubai.html">UAE - Dubai</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="oman-muscat.html">Oman Muscat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="baku-azerbaijan.html">Baku - Azerbaijan</a>
+                                        </li>
+                                    </div>
+                                    <div class="header_domestic_lists">
+                                        <li>
+                                            <p class="dropdown-item">America</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="usa-united_states.html">USA - United
+                                                States</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="central_america.html">Central America</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="alaska.html">Alaska</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="canada.html">Canada</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="mexico.html">Mexico</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="hawaii.html">Hawaii</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="south_america.html">South America</a>
+                                        </li>
+
+                                        <li class="mt-2">
+                                            <p class="dropdown-item">East Europe</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="greece.html">Greece</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="poland.html">Poland</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="croatia.html">Croatia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="russia.html">Russia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="czech-republic.html">Czech Republic</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="turkey.html">Turkey</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="all-of-east-europe.html">All of East
+                                                Europe</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="greece-turkey.html">Greece - Turkey</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="hungary.html">Hungary</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="baltic.html">Baltic</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                WHAT’S NEW
+                                <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">New Packages</a></li>
+                                <li><a class="dropdown-item" href="#">Latest Offers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                MY TRIPS
+                                <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Fixed Plants</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand" href="destination.html"><img src="./assets/images/trippo_logo.png"></a>
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="aboutus.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="travel_tips.html">TRAVEL TIPS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">VISAS</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a href="search.html"><svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="25" cy="25.8947" r="24.25" stroke="black" stroke-width="1.5" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M23.672 17.8947C22.608 17.8947 21.5595 18.1493 20.6138 18.637C19.6682 19.1247 18.8529 19.8315 18.236 20.6984C17.6191 21.5653 17.2185 22.5671 17.0675 23.6203C16.9165 24.6736 17.0196 25.7476 17.3682 26.7529C17.7168 27.7581 18.3007 28.6654 19.0713 29.3991C19.8418 30.1328 20.7767 30.6716 21.7978 30.9706C22.819 31.2695 23.8968 31.3199 24.9414 31.1176C25.986 30.9153 26.9671 30.4661 27.8028 29.8075L30.6696 32.6743C30.8177 32.8173 31.016 32.8964 31.2218 32.8946C31.4276 32.8928 31.6245 32.8103 31.7701 32.6647C31.9156 32.5192 31.9982 32.3223 32 32.1165C32.0018 31.9107 31.9226 31.7124 31.7796 31.5643L28.9128 28.6976C29.6884 27.7137 30.1713 26.5313 30.3062 25.2858C30.4412 24.0403 30.2228 22.782 29.676 21.6548C29.1292 20.5276 28.276 19.5771 27.2142 18.9122C26.1525 18.2472 24.9249 17.8946 23.672 17.8947ZM18.5695 24.567C18.5695 23.2138 19.107 21.916 20.064 20.9591C21.0209 20.0022 22.3187 19.4646 23.672 19.4646C25.0253 19.4646 26.3232 20.0022 27.2801 20.9591C28.237 21.916 28.7746 23.2138 28.7746 24.567C28.7746 25.9202 28.237 27.2181 27.2801 28.1749C26.3232 29.1318 25.0253 29.6694 23.672 29.6694C22.3187 29.6694 21.0209 29.1318 20.064 28.1749C19.107 27.2181 18.5695 25.9202 18.5695 24.567Z"
+                                    fill="black" />
+                            </svg></a>
+                        <a href="contact-us.html" class="btn btn-outline-success1" type="submit">Contact Us</a>
+                    </form>
+                </div>
+                <button class="btn off-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"><svg class="tog-btn" width="17" height="14" viewBox="0 0 17 14"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 12.3947H6.35714M1 6.89465H11.1786M1 1.39465H16" stroke="black" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel"><a href="destination.html"><img
+                                    src="./assets/images/trippo_logo.png" class="off-logo" alt=""></a>
+                        </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    DESTINATIONS
+                                    <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="header_desti_lists">
+                                        <div class="header_india_lists">
+                                            <li>
+                                                <p class="dropdown-item">India</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="gujarat.html">Gujarat</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="goa.html">Goa</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="bhutan.html">Bhutan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="kerala.html">Kerala</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="leh-ladakh.html">Leh - Ladakh</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="himachal.html">Himachal</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="rajasthan.html">Rajasthan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="uttarakhand.html">Uttarakhand</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="sikkim.html">Sikkim</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="nepal.html">Nepal</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="odisha.html">Odisha</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="lakshadweep-island.html">Lakshadweep
+                                                    Island</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="madhya-pradesh.html">Madhya Pradesh</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="uttar-pradesh.html">Uttar Pradesh</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="northeast.html">Northeast</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="northkerala.html">North Kerala</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="karnataka-south-india.html">Karnataka &
+                                                    South
+                                                    India</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="golden-triangle.html">Golden Triangle</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="maharashtra.html">Maharashtra</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="andaman.html">Andaman</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="kashmir.html">Kashmir</a>
+                                            </li>
+                                        </div>
+                                        <div class="header_india_lists">
+                                            <li>
+                                                <p class="dropdown-item">Asia</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="vietnam.html">Vietnam</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="srilanka.html">Sri Lanka</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="singapore.html">Singapore</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="maldives.html">Maldives</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="phillippines.html">Phillippines</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="thailand.html">Thailand</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="japan.html">Japan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="malaysia.html">Malaysia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="southkorea.html">South Korea</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="bali.html">Bali</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="hongkong.html">Hong Kong</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="macau.html">Macau</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="china.html">China</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="singapore-bali.html">Singapore Bali</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="singapore-malaysia.html">Singapore
+                                                    Malaysia</a>
+                                            </li>
+
+                                            <li class="mt-2">
+                                                <p class="dropdown-item">Australia & NZ</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="new-zealand.html">New Zealand</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="fiji-borabora.html">Fiji & Bora Bora</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="australia.html">Australia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="tasmania.html">Tasmania</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="nauru.html">Nauru</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="auckland.html">Auckland</a>
+                                            </li>
+                                        </div>
+                                        <div class="header_india_lists">
+                                            <li>
+                                                <p class="dropdown-item">Central Europe</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="uk-scotland.html">UK - Scotland</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="scandinavia.html">Scandinavia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="ireland.html">Ireland</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="austria.html">Austria</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="all-of-europe.html">All Of Europe</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="switzerland-paris.html">Switzerland -
+                                                    Paris</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="netherlands.html">Netherlands</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="spain.html">Spain</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="switzerland.html">Switzerland</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="italy.html">Italy</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="norway.html">Norway</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="iceland.html">Iceland</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="germany.html">Germany</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="france.html">France</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="finland.html">Finland</a>
+                                            </li>
+                                        </div>
+                                        <div class="header_domestic_lists">
+                                            <li>
+                                                <p class="dropdown-item">Africa</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="egypt.html">Egypt</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="morocco.html">Morocco</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="uganda.html">Uganda</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="zambia.html">Zambia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="mauritius.html">Mauritius</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="kenya.html">Kenya</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="south-africa.html">South Africa</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="tanzania.html">Tanzania</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="botswana.html">Botswana</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="seychelles.html">Seychelles</a>
+                                            </li>
+
+                                            <li class="mt-2">
+                                                <p class="dropdown-item">Middle East</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="uzbekistan.html">Uzbekistan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="georgia.html">Georgia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="saudi-arabia.html">Saudi Arabia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="kazakhastan.html">Kazakhastan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="israel-jordan.html">Israel - Jordan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="UAE-dubai.html">UAE - Dubai</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="oman-muscat.html">Oman Muscat</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="baku-azerbaijan.html">Baku -
+                                                    Azerbaijan</a>
+                                            </li>
+                                        </div>
+                                        <div class="header_domestic_lists">
+                                            <li>
+                                                <p class="dropdown-item">America</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="usa-united_states.html">USA - United
+                                                    States</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="central_america.html">Central America</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="alaska.html">Alaska</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="canada.html">Canada</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="mexico.html">Mexico</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="hawaii.html">Hawaii</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="south_america.html">South America</a>
+                                            </li>
+
+                                            <li class="mt-2">
+                                                <p class="dropdown-item">East Europe</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="greece.html">Greece</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="poland.html">Poland</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="croatia.html">Croatia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="russia.html">Russia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="czech-republic.html">Czech Republic</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="turkey.html">Turkey</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="all-of-east-europe.html">All of East
+                                                    Europe</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="greece-turkey.html">Greece - Turkey</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="hungary.html">Hungary</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="baltic.html">Baltic</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    WHAT’S NEW
+                                    <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">New Packages</a></li>
+                                    <li><a class="dropdown-item" href="#">Latest Offers</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    MY TRIPS
+                                    <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Fixed Plants</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="aboutus.html">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="travel_tips.html">TRAVEL TIPS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">VISAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="my_profile.html">My Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">My Bookings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="privacy_policy.html">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="careers.html">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="FAQs.html">FAQs</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <a href="search.html"><svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="25" cy="25.8947" r="24.25" stroke="black" stroke-width="1.5" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M23.672 17.8947C22.608 17.8947 21.5595 18.1493 20.6138 18.637C19.6682 19.1247 18.8529 19.8315 18.236 20.6984C17.6191 21.5653 17.2185 22.5671 17.0675 23.6203C16.9165 24.6736 17.0196 25.7476 17.3682 26.7529C17.7168 27.7581 18.3007 28.6654 19.0713 29.3991C19.8418 30.1328 20.7767 30.6716 21.7978 30.9706C22.819 31.2695 23.8968 31.3199 24.9414 31.1176C25.986 30.9153 26.9671 30.4661 27.8028 29.8075L30.6696 32.6743C30.8177 32.8173 31.016 32.8964 31.2218 32.8946C31.4276 32.8928 31.6245 32.8103 31.7701 32.6647C31.9156 32.5192 31.9982 32.3223 32 32.1165C32.0018 31.9107 31.9226 31.7124 31.7796 31.5643L28.9128 28.6976C29.6884 27.7137 30.1713 26.5313 30.3062 25.2858C30.4412 24.0403 30.2228 22.782 29.676 21.6548C29.1292 20.5276 28.276 19.5771 27.2142 18.9122C26.1525 18.2472 24.9249 17.8946 23.672 17.8947ZM18.5695 24.567C18.5695 23.2138 19.107 21.916 20.064 20.9591C21.0209 20.0022 22.3187 19.4646 23.672 19.4646C25.0253 19.4646 26.3232 20.0022 27.2801 20.9591C28.237 21.916 28.7746 23.2138 28.7746 24.567C28.7746 25.9202 28.237 27.2181 27.2801 28.1749C26.3232 29.1318 25.0253 29.6694 23.672 29.6694C22.3187 29.6694 21.0209 29.1318 20.064 28.1749C19.107 27.2181 18.5695 25.9202 18.5695 24.567Z"
+                                        fill="black" />
+                                </svg></a>
+                            <a href="contact-us.html" class="btn btn-outline-success1" type="submit">Contact Us</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="header_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a>
+                                <svg class="bread_arrow" width="6" height="8" viewBox="0 0 6 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.316 0.67H1.926L5.314 3.876L1.926 7.096H0.316L3.704 3.876L0.316 0.67Z"
+                                        fill="#03B58B" />
+                                </svg>
+                            </li>
+                            <li><a href="FAQs.html" class="active">FAQs</a>
+                                <svg class="bread_arrow" width="6" height="8" viewBox="0 0 6 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.316 0.67H1.926L5.314 3.876L1.926 7.096H0.316L3.704 3.876L0.316 0.67Z"
+                                        fill="#03B58B" />
+                                </svg>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="faqs_main">
+                        <h2 class="faqs_main_title">Frequently asked questions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What is Trippo Bazaar?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Trippo Bazaar is an online platform that offers travel-related services,
+                                        including booking flights, hotels, car rentals, and curated travel experiences.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How do I book a flight on Trippo Bazaar?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>To book a flight, enter your departure and destination cities, select your travel
+                                        dates, and choose from the available flights. Follow the prompts to complete
+                                        your booking.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can I cancel or change my booking?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Yes, you can cancel or modify your booking through our website or by contacting
+                                        our customer support. Please note that cancellation and change fees may apply
+                                        depending on the airline or hotel policies.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How do I contact customer support?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>You can reach our customer support team via the "Contact Us" page, by phone at
+                                        [Customer Support Phone Number], or by email at [Customer Support Email].
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Are there any travel deals or discounts available?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Yes, we frequently offer deals and discounts on flights, hotels, and travel
+                                        packages. Check our "Deals" section for the latest offers.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    How do I find and book travel experiences?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Explore our "Experiences" section to discover a variety of curated activities and
+                                        tours. Select the experience you’re interested in and follow the booking
+                                        instructions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    What payment methods do you accept?
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>We accept major credit cards, debit cards, and PayPal. All payments are securely
+                                        processed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Is my personal information safe on Trippo Bazaar?
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Yes, we use advanced security measures to protect your personal and payment
+                                        information. For more details, please review our Privacy Policy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                    Can I book travel for a group?
+                                </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Yes, Trippo Bazaar offers group travel booking options. Contact our customer
+                                        support for assistance with group bookings.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                    How do I sign up for the Trippo Bazaar newsletter?
+                                </button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>You can sign up for our newsletter by entering your email address in the
+                                        subscription box located at the bottom of our homepage. Stay updated on the
+                                        latest travel deals and news.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEleven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEleven" aria-expanded="false"
+                                    aria-controls="collapseEleven">
+                                    What should I do if I encounter issues with my booking?
+                                </button>
+                            </h2>
+                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>If you experience any issues, please contact our customer support team
+                                        immediately for assistance.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTweleve">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTweleve" aria-expanded="false"
+                                    aria-controls="collapseTweleve">
+                                    Can I earn rewards or points for bookings?
+                                </button>
+                            </h2>
+                            <div id="collapseTweleve" class="accordion-collapse collapse"
+                                aria-labelledby="headingTweleve" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Yes, we have a loyalty program that allows you to earn points for every booking.
+                                        Points can be redeemed for discounts on future bookings. Visit our "Loyalty
+                                        Program" page for more information.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThirteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThirteen" aria-expanded="false"
+                                    aria-controls="collapseThirteen">
+                                    How do I check my booking status?
+                                </button>
+                            </h2>
+                            <div id="collapseThirteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Log in to your Trippo Bazaar account and go to the "My Bookings" section to view
+                                        your booking details and status.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFourteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFourteen" aria-expanded="false"
+                                    aria-controls="collapseFourteen">
+                                    What travel documents do I need?
+                                </button>
+                            </h2>
+                            <div id="collapseFourteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Travel document requirements vary depending on your destination. Generally, you
+                                        will need a valid passport and possibly a visa. Check the specific entry
+                                        requirements for your destination country.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFifteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFifteen" aria-expanded="false"
+                                    aria-controls="collapseFifteen">
+                                    Does Trippo Bazaar offer travel insurance?
+                                </button>
+                            </h2>
+                            <div id="collapseFifteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Yes, we offer travel insurance options that you can add to your booking for
+                                        additional protection.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-12">
+                    <div class="footer_logo">
+                        <a href="#"><img src="./assets/images/trippo_logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="footer_lists">
+                        <ul>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                            <li><a href="FAQs.html" class="active">FAQs</a></li>
+                            <li><a href="#">Get a Call back</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="footer_lists">
+                        <ul>
+                            <li><a href="#">Search Destinations</a></li>
+                            <li><a href="#">Booking Conditions</a></li>
+                            <li><a href="#">My Reservations</a></li>
+                            <li><a href="#">Explore Packages</a></li>
+                            <li><a href="#">Safety Measures</a></li>
+                            <li><a href="#">Health Concerns</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="footer_contact_details">
+                        <div class="footer_contact_details_title">
+                            <h2>Contact Us</h2>
+                        </div>
+                        <div class="footer_contact_para">
+                            <a href="#">contact@trippobazaar.com</a>
+                            <p>+91 9999999999 | +91 8888888888</p>
+                        </div>
+                        <div class="footer_contact_btn">
+                            <p><span>Subscribe</span>&nbsp;to get exclusive deals</p>
+                            <div class="footer_inp">
+                                <input class="form-control" type="search" placeholder="Enter your email address"
+                                    aria-label="Search">
+                                <button type="submit">Get Deals</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer_last_copy_social">
+                        <div class="footer_copy">
+                            <p>&copy; Copyright.2024 - All Rights Reserved - Trippo Bazaar</p>
+                        </div>
+                        <div class="footer_social_icons">
+                            <a href="#">
+                                <img src="./assets/images/insta_i.png" alt="">
+                                <!-- <i class="fa-brands fa-instagram"></i> -->
+                            </a>
+                            <a href="#">
+                                <img src="./assets/images/twitter_i.png" alt="">
+                                <!-- <i class="fa-brands fa-twitter"></i> -->
+                            </a>
+                            <a href="#">
+                                <img src="./assets/images/facebook_i.png" alt="">
+                                <!-- <i class="fa-brands fa-facebook-f"></i> -->
+                            </a>
+                            <a href="#">
+                                <img src="./assets/images/youtube_i.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOTSTRAP JS LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

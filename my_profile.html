@@ -1,0 +1,1669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Trippo Bazaar</title>
+</head>
+
+<body>
+    <section id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-logo" href="destination.html"><img src="./assets/images/trippo_logo.png"></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <div class="header_btn">
+                                <a>
+                                    <svg class="m-2" width="17" height="14" viewBox="0 0 17 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 12.3947H6.35714M1 6.89465H11.1786M1 1.39465H16" stroke="black"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    Menu
+                                </a>
+                            </div>
+                        </label>
+                        <ul class="menu__box">
+                            <li><a class="menu__item active" href="my_profile.html">My Profile</a></li>
+                            <li><a class="menu__item" href="#">My Bookings</a></li>
+                            <li><a class="menu__item" href="privacy_policy.html">Privacy Policy</a></li>
+                            <li><a class="menu__item" href="careers.html">Careers</a></li>
+                            <li><a class="menu__item" href="FAQs.html">FAQs</a></li>
+                            <li><a class="menu__item" href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <!-- <a href="login_form.html" class="header_login_btn">Log in/Sign up</a> -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="destination.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                DESTINATIONS
+                                <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="header_desti_lists">
+                                    <div class="header_india_lists">
+                                        <li>
+                                            <p class="dropdown-item">India</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="gujarat.html">Gujarat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="goa.html">Goa</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="bhutan.html">Bhutan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="kerala.html">Kerala</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="leh-ladakh.html">Leh - Ladakh</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="himachal.html">Himachal</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="rajasthan.html">Rajasthan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="uttarakhand.html">Uttarakhand</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="sikkim.html">Sikkim</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="nepal.html">Nepal</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="odisha.html">Odisha</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="lakshadweep-island.html">Lakshadweep
+                                                Island</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="madhya-pradesh.html">Madhya Pradesh</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="uttar-pradesh.html">Uttar Pradesh</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="northeast.html">Northeast</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="northkerala.html">North Kerala</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="karnataka-south-india.html">Karnataka & South
+                                                India</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="golden-triangle.html">Golden Triangle</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="maharashtra.html">Maharashtra</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="andaman.html">Andaman</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="kashmir.html">Kashmir</a>
+                                        </li>
+                                    </div>
+                                    <div class="header_india_lists">
+                                        <li>
+                                            <p class="dropdown-item">Asia</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="vietnam.html">Vietnam</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="srilanka.html">Sri Lanka</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="singapore.html">Singapore</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="maldives.html">Maldives</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="phillippines.html">Phillippines</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="thailand.html">Thailand</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="japan.html">Japan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="malaysia.html">Malaysia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="southkorea.html">South Korea</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="bali.html">Bali</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="hongkong.html">Hong Kong</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="macau.html">Macau</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="china.html">China</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="singapore-bali.html">Singapore Bali</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="singapore-malaysia.html">Singapore
+                                                Malaysia</a>
+                                        </li>
+
+                                        <li class="mt-2">
+                                            <p class="dropdown-item">Australia & NZ</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="new-zealand.html">New Zealand</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="fiji-borabora.html">Fiji & Bora Bora</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="australia.html">Australia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="tasmania.html">Tasmania</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="nauru.html">Nauru</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="auckland.html">Auckland</a>
+                                        </li>
+                                    </div>
+                                    <div class="header_india_lists">
+                                        <li>
+                                            <p class="dropdown-item">Central Europe</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="uk-scotland.html">UK - Scotland</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="scandinavia.html">Scandinavia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="ireland.html">Ireland</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="austria.html">Austria</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="all-of-europe.html">All Of Europe</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="switzerland-paris.html">Switzerland -
+                                                Paris</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="netherlands.html">Netherlands</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="spain.html">Spain</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="switzerland.html">Switzerland</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="italy.html">Italy</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="norway.html">Norway</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="iceland.html">Iceland</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="germany.html">Germany</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="france.html">France</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="finland.html">Finland</a>
+                                        </li>
+                                    </div>
+                                    <div class="header_domestic_lists">
+                                        <li>
+                                            <p class="dropdown-item">Africa</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="egypt.html">Egypt</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="morocco.html">Morocco</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="uganda.html">Uganda</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="zambia.html">Zambia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="mauritius.html">Mauritius</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="kenya.html">Kenya</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="south-africa.html">South Africa</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="tanzania.html">Tanzania</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="botswana.html">Botswana</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="seychelles.html">Seychelles</a>
+                                        </li>
+
+                                        <li class="mt-2">
+                                            <p class="dropdown-item">Middle East</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="uzbekistan.html">Uzbekistan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="georgia.html">Georgia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="saudi-arabia.html">Saudi Arabia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="kazakhastan.html">Kazakhastan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="israel-jordan.html">Israel - Jordan</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="UAE-dubai.html">UAE - Dubai</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="oman-muscat.html">Oman Muscat</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="baku-azerbaijan.html">Baku - Azerbaijan</a>
+                                        </li>
+                                    </div>
+                                    <div class="header_domestic_lists">
+                                        <li>
+                                            <p class="dropdown-item">America</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="usa-united_states.html">USA - United
+                                                States</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="central_america.html">Central America</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="alaska.html">Alaska</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="canada.html">Canada</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="mexico.html">Mexico</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="hawaii.html">Hawaii</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="south_america.html">South America</a>
+                                        </li>
+
+                                        <li class="mt-2">
+                                            <p class="dropdown-item">East Europe</p>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="greece.html">Greece</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="poland.html">Poland</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="croatia.html">Croatia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="russia.html">Russia</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="czech-republic.html">Czech Republic</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="turkey.html">Turkey</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="all-of-east-europe.html">All of East
+                                                Europe</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="greece-turkey.html">Greece - Turkey</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="hungary.html">Hungary</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="baltic.html">Baltic</a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                WHAT’S NEW
+                                <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">New Packages</a></li>
+                                <li><a class="dropdown-item" href="#">Latest Offers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                MY TRIPS
+                                <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                        stroke-linecap="round" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Fixed Plants</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a class="navbar-brand" href="destination.html"><img src="./assets/images/trippo_logo.png"></a>
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="aboutus.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="travel_tips.html">TRAVEL TIPS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">VISAS</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a href="search.html"><svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="25" cy="25.8947" r="24.25" stroke="black" stroke-width="1.5" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M23.672 17.8947C22.608 17.8947 21.5595 18.1493 20.6138 18.637C19.6682 19.1247 18.8529 19.8315 18.236 20.6984C17.6191 21.5653 17.2185 22.5671 17.0675 23.6203C16.9165 24.6736 17.0196 25.7476 17.3682 26.7529C17.7168 27.7581 18.3007 28.6654 19.0713 29.3991C19.8418 30.1328 20.7767 30.6716 21.7978 30.9706C22.819 31.2695 23.8968 31.3199 24.9414 31.1176C25.986 30.9153 26.9671 30.4661 27.8028 29.8075L30.6696 32.6743C30.8177 32.8173 31.016 32.8964 31.2218 32.8946C31.4276 32.8928 31.6245 32.8103 31.7701 32.6647C31.9156 32.5192 31.9982 32.3223 32 32.1165C32.0018 31.9107 31.9226 31.7124 31.7796 31.5643L28.9128 28.6976C29.6884 27.7137 30.1713 26.5313 30.3062 25.2858C30.4412 24.0403 30.2228 22.782 29.676 21.6548C29.1292 20.5276 28.276 19.5771 27.2142 18.9122C26.1525 18.2472 24.9249 17.8946 23.672 17.8947ZM18.5695 24.567C18.5695 23.2138 19.107 21.916 20.064 20.9591C21.0209 20.0022 22.3187 19.4646 23.672 19.4646C25.0253 19.4646 26.3232 20.0022 27.2801 20.9591C28.237 21.916 28.7746 23.2138 28.7746 24.567C28.7746 25.9202 28.237 27.2181 27.2801 28.1749C26.3232 29.1318 25.0253 29.6694 23.672 29.6694C22.3187 29.6694 21.0209 29.1318 20.064 28.1749C19.107 27.2181 18.5695 25.9202 18.5695 24.567Z"
+                                    fill="black" />
+                            </svg></a>
+                        <a href="contact-us.html" class="btn btn-outline-success1" type="submit">Contact Us</a>
+                    </form>
+                </div>
+                <button class="btn off-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"><svg class="tog-btn" width="17" height="14" viewBox="0 0 17 14"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 12.3947H6.35714M1 6.89465H11.1786M1 1.39465H16" stroke="black" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel"><a href="destination.html"><img
+                                    src="./assets/images/trippo_logo.png" class="off-logo" alt=""></a>
+                        </h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    DESTINATIONS
+                                    <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="header_desti_lists">
+                                        <div class="header_india_lists">
+                                            <li>
+                                                <p class="dropdown-item">India</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="gujarat.html">Gujarat</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="goa.html">Goa</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="bhutan.html">Bhutan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="kerala.html">Kerala</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="leh-ladakh.html">Leh - Ladakh</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="himachal.html">Himachal</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="rajasthan.html">Rajasthan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="uttarakhand.html">Uttarakhand</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="sikkim.html">Sikkim</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="nepal.html">Nepal</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="odisha.html">Odisha</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="lakshadweep-island.html">Lakshadweep
+                                                    Island</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="madhya-pradesh.html">Madhya Pradesh</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="uttar-pradesh.html">Uttar Pradesh</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="northeast.html">Northeast</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="northkerala.html">North Kerala</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="karnataka-south-india.html">Karnataka &
+                                                    South
+                                                    India</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="golden-triangle.html">Golden Triangle</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="maharashtra.html">Maharashtra</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="andaman.html">Andaman</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="kashmir.html">Kashmir</a>
+                                            </li>
+                                        </div>
+                                        <div class="header_india_lists">
+                                            <li>
+                                                <p class="dropdown-item">Asia</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="vietnam.html">Vietnam</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="srilanka.html">Sri Lanka</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="singapore.html">Singapore</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="maldives.html">Maldives</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="phillippines.html">Phillippines</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="thailand.html">Thailand</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="japan.html">Japan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="malaysia.html">Malaysia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="southkorea.html">South Korea</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="bali.html">Bali</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="hongkong.html">Hong Kong</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="macau.html">Macau</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="china.html">China</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="singapore-bali.html">Singapore Bali</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="singapore-malaysia.html">Singapore
+                                                    Malaysia</a>
+                                            </li>
+
+                                            <li class="mt-2">
+                                                <p class="dropdown-item">Australia & NZ</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="new-zealand.html">New Zealand</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="fiji-borabora.html">Fiji & Bora Bora</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="australia.html">Australia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="tasmania.html">Tasmania</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="nauru.html">Nauru</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="auckland.html">Auckland</a>
+                                            </li>
+                                        </div>
+                                        <div class="header_india_lists">
+                                            <li>
+                                                <p class="dropdown-item">Central Europe</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="uk-scotland.html">UK - Scotland</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="scandinavia.html">Scandinavia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="ireland.html">Ireland</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="austria.html">Austria</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="all-of-europe.html">All Of Europe</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="switzerland-paris.html">Switzerland -
+                                                    Paris</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="netherlands.html">Netherlands</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="spain.html">Spain</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="switzerland.html">Switzerland</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="italy.html">Italy</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="norway.html">Norway</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="iceland.html">Iceland</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="germany.html">Germany</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="france.html">France</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="finland.html">Finland</a>
+                                            </li>
+                                        </div>
+                                        <div class="header_domestic_lists">
+                                            <li>
+                                                <p class="dropdown-item">Africa</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="egypt.html">Egypt</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="morocco.html">Morocco</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="uganda.html">Uganda</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="zambia.html">Zambia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="mauritius.html">Mauritius</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="kenya.html">Kenya</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="south-africa.html">South Africa</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="tanzania.html">Tanzania</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="botswana.html">Botswana</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="seychelles.html">Seychelles</a>
+                                            </li>
+
+                                            <li class="mt-2">
+                                                <p class="dropdown-item">Middle East</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="uzbekistan.html">Uzbekistan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="georgia.html">Georgia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="saudi-arabia.html">Saudi Arabia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="kazakhastan.html">Kazakhastan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="israel-jordan.html">Israel - Jordan</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="UAE-dubai.html">UAE - Dubai</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="oman-muscat.html">Oman Muscat</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="baku-azerbaijan.html">Baku -
+                                                    Azerbaijan</a>
+                                            </li>
+                                        </div>
+                                        <div class="header_domestic_lists">
+                                            <li>
+                                                <p class="dropdown-item">America</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="usa-united_states.html">USA - United
+                                                    States</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="central_america.html">Central America</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="alaska.html">Alaska</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="canada.html">Canada</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="mexico.html">Mexico</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="hawaii.html">Hawaii</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="south_america.html">South America</a>
+                                            </li>
+
+                                            <li class="mt-2">
+                                                <p class="dropdown-item">East Europe</p>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="greece.html">Greece</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="poland.html">Poland</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="croatia.html">Croatia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="russia.html">Russia</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="czech-republic.html">Czech Republic</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="turkey.html">Turkey</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="all-of-east-europe.html">All of East
+                                                    Europe</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="greece-turkey.html">Greece - Turkey</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="hungary.html">Hungary</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="baltic.html">Baltic</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    WHAT’S NEW
+                                    <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">New Packages</a></li>
+                                    <li><a class="dropdown-item" href="#">Latest Offers</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    MY TRIPS
+                                    <svg class="dro_icon" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 0.894653L5 4.89465L9 0.894653" stroke="#27BFEA"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Fixed Plants</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="aboutus.html">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="travel_tips.html">TRAVEL TIPS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">VISAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="my_profile.html">My Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">My Bookings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="privacy_policy.html">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="careers.html">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="FAQs.html">FAQs</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <a href="search.html"><svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="25" cy="25.8947" r="24.25" stroke="black" stroke-width="1.5" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M23.672 17.8947C22.608 17.8947 21.5595 18.1493 20.6138 18.637C19.6682 19.1247 18.8529 19.8315 18.236 20.6984C17.6191 21.5653 17.2185 22.5671 17.0675 23.6203C16.9165 24.6736 17.0196 25.7476 17.3682 26.7529C17.7168 27.7581 18.3007 28.6654 19.0713 29.3991C19.8418 30.1328 20.7767 30.6716 21.7978 30.9706C22.819 31.2695 23.8968 31.3199 24.9414 31.1176C25.986 30.9153 26.9671 30.4661 27.8028 29.8075L30.6696 32.6743C30.8177 32.8173 31.016 32.8964 31.2218 32.8946C31.4276 32.8928 31.6245 32.8103 31.7701 32.6647C31.9156 32.5192 31.9982 32.3223 32 32.1165C32.0018 31.9107 31.9226 31.7124 31.7796 31.5643L28.9128 28.6976C29.6884 27.7137 30.1713 26.5313 30.3062 25.2858C30.4412 24.0403 30.2228 22.782 29.676 21.6548C29.1292 20.5276 28.276 19.5771 27.2142 18.9122C26.1525 18.2472 24.9249 17.8946 23.672 17.8947ZM18.5695 24.567C18.5695 23.2138 19.107 21.916 20.064 20.9591C21.0209 20.0022 22.3187 19.4646 23.672 19.4646C25.0253 19.4646 26.3232 20.0022 27.2801 20.9591C28.237 21.916 28.7746 23.2138 28.7746 24.567C28.7746 25.9202 28.237 27.2181 27.2801 28.1749C26.3232 29.1318 25.0253 29.6694 23.672 29.6694C22.3187 29.6694 21.0209 29.1318 20.064 28.1749C19.107 27.2181 18.5695 25.9202 18.5695 24.567Z"
+                                        fill="black" />
+                                </svg></a>
+                            <a href="contact-us.html" class="btn btn-outline-success1" type="submit">Contact Us</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="header_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a>
+                                <svg class="bread_arrow" width="6" height="8" viewBox="0 0 6 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.316 0.67H1.926L5.314 3.876L1.926 7.096H0.316L3.704 3.876L0.316 0.67Z"
+                                        fill="#03B58B" />
+                                </svg>
+                            </li>
+                            <li><a href="my_profile.html" class="active">My Profile</a>
+                                <svg class="bread_arrow" width="6" height="8" viewBox="0 0 6 8" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.316 0.67H1.926L5.314 3.876L1.926 7.096H0.316L3.704 3.876L0.316 0.67Z"
+                                        fill="#03B58B" />
+                                </svg>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="my_profile">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex align-items-start">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <div class="profile_box">
+                                <button class="profile_box_name">uk</button>
+                            </div>
+                            <div class="edit_icon">
+                                <img src="./assets/images/edit.png" alt="">
+                            </div>
+                            <div class="profile_title">
+                                <h2>uttara kulkarni</h2>
+                                <p>uttarakulkarni111@gmail.com</p>
+                            </div>
+                            <button class="profile_btn active" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-profile" type="button" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="true">Profile <img
+                                    src="./assets/images/right-i.png" class="profile_right_i" alt="">
+                            </button>
+                            <button class="profile_btn" id="v-pills-login-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-login" type="button" role="tab" aria-controls="v-pills-login"
+                                aria-selected="false">Login Details <img src="./assets/images/right-i.png"
+                                    class="profile_right_i" alt=""></button>
+                            <button class="profile_btn" id="v-pills-saved-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-saved" type="button" role="tab"
+                                aria-controls="v-pills-saved profile_btn" aria-selected="false">Saved
+                                Travellers <img src="./assets/images/right-i.png" class="profile_right_i"
+                                    alt=""></button>
+                            <button class="profile_btn" id="v-pills-coupons-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-coupons" type="button" role="tab"
+                                aria-controls="v-pills-coupons profile_btn" aria-selected="false">My Coupons <img
+                                    src="./assets/images/right-i.png" class="profile_right_i" alt=""></button>
+                            <button class="profile_btn" id="v-pills-bucket-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-bucket" type="button" role="tab"
+                                aria-controls="v-pills-bucket profile_btn" aria-selected="false">Bucket List <img
+                                    src="./assets/images/right-i.png" class="profile_right_i" alt=""></button>
+                            <div class="profile_lg_btn">
+                                <button type="reset">Log Out</button>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <label for="customRange1" class="form-label">Your
+                                Profile is incomplete
+                                <span class="range-percentage">50%</span></label>
+                            <input type="range" class="form-range" id="customRange1">
+                            <label for="" class="profile-cmplt">Complete your profile to get additional coupon of
+                                3000rupees!</label>
+                            <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel"
+                                aria-labelledby="v-pills-profile-tab">
+                                <div class="profile_title_btn">
+                                    <div class="profile_title">
+                                        <h2>Profile</h2>
+                                    </div>
+                                    <div class="profile_btn">
+                                        <a href="#"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M25.74 13.5928C26.0867 13.2462 26.0867 12.6685 25.74 12.3397L23.6603 10.26C23.3315 9.91335 22.7538 9.91335 22.4072 10.26L20.7718 11.8864L24.1047 15.2193M10 22.6671V26H13.3329L23.1626 16.1614L19.8297 12.8285L10 22.6671Z"
+                                                    fill="black" />
+                                            </svg>
+                                            Edit
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="user_details">
+                                    <h2 class="user_details_title">User Details</h2>
+                                </div>
+                                <div class="user_details_inputs">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <input type="text" class="form-control" id="inputCity"
+                                                placeholder="Uttara kulkarni">
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <input type="date" class="form-control" id="inputCity"
+                                                placeholder="22 July 2000">
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <select id="inputState" class="form-select">
+                                                <option selected>Gender</option>
+                                                <option>Male</option>
+                                                <option>Female</option>
+                                                <option>Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <select id="inputState" class="form-select">
+                                                <option selected>Marital Status</option>
+                                                <option>Married</option>
+                                                <option>Unmarried</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <input type="text" class="form-control" id="inputCity"
+                                                placeholder="Your Address">
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <input type="number" class="form-control" id="inputCity"
+                                                placeholder="Pin Code">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-login" role="tabpanel"
+                                aria-labelledby="v-pills-login-tab">
+                                <div class="profile_title">
+                                    <h2>Login Details</h2>
+                                </div>
+                                <div class="user_details_inputs">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <div class="input-group">
+                                                <button class="btn dropdown-toggle" type="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"><img
+                                                        src="./assets/images/india-flag.png" alt=""></button>
+                                                <ul class="dropdown-menu">
+                                                    <li class="india-flag"><a class="dropdown-item" href="#"><img
+                                                                src="./assets/images/australia-flag.png" alt=""></a>
+                                                    </li>
+                                                    <li class="india-flag"><a class="dropdown-item" href="#"><img
+                                                                src="./assets/images/africa-flag.png" alt=""></a></li>
+                                                    <li class="india-flag"><a class="dropdown-item" href="#"><img
+                                                                src="./assets/images/USA-flag.png" alt=""></a></li>
+                                                </ul>
+                                                <input type="number" class="form-control"
+                                                    aria-label="Text input with dropdown button"
+                                                    placeholder="Mobile Number">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <div class="input-group">
+                                                <button class="btn" type="button" data-bs-toggle="dropdown"
+                                                    aria-expanded="false"><img src="./assets/images/profile-gray.png"
+                                                        alt=""></button>
+                                                <input type="email" class="form-control"
+                                                    aria-label="Text input with dropdown button"
+                                                    placeholder="uttarakulkarni111@gmail.com">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <div class="input-group">
+                                                <button class="btn" type="button" data-bs-toggle="dropdown"
+                                                    aria-expanded="false"><img src="./assets/images/pass-i.png"
+                                                        alt=""></button>
+                                                <input type="password" class="form-control"
+                                                    aria-label="Text input with dropdown button"
+                                                    placeholder="************">
+                                            </div>
+                                            <div class="change_pass">
+                                                <a href="#">Change Password?</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-saved" role="tabpanel"
+                                aria-labelledby="v-pills-saved-tab">
+                                <div class="profile_title_btn">
+                                    <div class="profile_title">
+                                        <h2>Saved Travellers</h2>
+                                    </div>
+                                    <div class="profile_btn">
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M16.7143 10.2857H10.2857V16.7143C10.2857 17.0553 10.1503 17.3823 9.90914 17.6234C9.66802 17.8645 9.34099 18 9 18C8.65901 18 8.33198 17.8645 8.09086 17.6234C7.84974 17.3823 7.71429 17.0553 7.71429 16.7143V10.2857H1.28571C0.944722 10.2857 0.617695 10.1503 0.376577 9.90914C0.135459 9.66802 0 9.34099 0 9C0 8.65901 0.135459 8.33198 0.376577 8.09086C0.617695 7.84975 0.944722 7.71429 1.28571 7.71429H7.71429V1.28571C7.71429 0.944722 7.84974 0.617695 8.09086 0.376577C8.33198 0.135458 8.65901 0 9 0C9.34099 0 9.66802 0.135458 9.90914 0.376577C10.1503 0.617695 10.2857 0.944722 10.2857 1.28571V7.71429H16.7143C17.0553 7.71429 17.3823 7.84975 17.6234 8.09086C17.8645 8.33198 18 8.65901 18 9C18 9.34099 17.8645 9.66802 17.6234 9.90914C17.3823 10.1503 17.0553 10.2857 16.7143 10.2857Z"
+                                                    fill="black" />
+                                            </svg>
+                                            Add Travellers
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Traveller's Info
+                                                        </h5>
+                                                        <button type="button" class="travel-close-btn"
+                                                            data-bs-dismiss="modal" aria-label="Close">
+                                                            <svg width="13" height="16" viewBox="0 0 13 16" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M1 5V15C1 15.55 1.45 16 2 16H11C11.55 16 12 15.55 12 15V5H1ZM4 14H3V7H4V14ZM6 14H5V7H6V14ZM8 14H7V7H8V14ZM10 14H9V7H10V14ZM12.25 2H9V0.75C8.99921 0.551331 8.91994 0.361024 8.77946 0.220543C8.63898 0.0800612 8.44867 0.000789946 8.25 0L4.75 0C4.55133 0.000789946 4.36102 0.0800612 4.22054 0.220543C4.08006 0.361024 4.00079 0.551331 4 0.75V2H0.75C0.55125 2.00053 0.360791 2.07971 0.220253 2.22025C0.079715 2.36079 0.000527891 2.55125 0 2.75V4H13V2.75C12.9995 2.55125 12.9203 2.36079 12.7797 2.22025C12.6392 2.07971 12.4488 2.00053 12.25 2ZM8 2H5V1.013H8V2Z"
+                                                                    fill="#FF6C6C" />
+                                                            </svg>
+                                                            Remove
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="user_details">
+                                                            <h2 class="user_details_title">User Details</h2>
+                                                        </div>
+                                                        <div class="user_details_inputs">
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-md-6 col-12">
+                                                                    <input type="text"
+                                                                        class="form-control modal-name-inp" id="name"
+                                                                        placeholder="Full Name">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-12">
+                                                                    <div class="input-group">
+                                                                        <button class="btn modal-profile-btn"
+                                                                            type="button" data-bs-toggle="dropdown"
+                                                                            aria-expanded="false"><img
+                                                                                src="./assets/images/profile-gray.png"
+                                                                                alt=""></button>
+                                                                        <input type="email"
+                                                                            class="form-control modal-email-inp"
+                                                                            aria-label="Text input with dropdown button"
+                                                                            placeholder="uttarakulkarni111@gmail.com">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-md-6 col-12">
+                                                                    <div class="input-group">
+                                                                        <button class="btn dropdown-toggle india-btn"
+                                                                            type="button" data-bs-toggle="dropdown"
+                                                                            aria-expanded="false"><img
+                                                                                src="./assets/images/india-flag.png"
+                                                                                alt=""></button>
+                                                                        <ul class="dropdown-menu">
+                                                                            <li class="india-flag"><a
+                                                                                    class="dropdown-item" href="#"><img
+                                                                                        src="./assets/images/australia-flag.png"
+                                                                                        alt=""></a></li>
+                                                                            <li class="india-flag"><a
+                                                                                    class="dropdown-item" href="#"><img
+                                                                                        src="./assets/images/africa-flag.png"
+                                                                                        alt=""></a></li>
+                                                                            <li class="india-flag"><a
+                                                                                    class="dropdown-item" href="#"><img
+                                                                                        src="./assets/images/USA-flag.png"
+                                                                                        alt=""></a></li>
+                                                                        </ul>
+                                                                        <input type="number"
+                                                                            class="form-control modal-num-inp"
+                                                                            aria-label="Text input with dropdown button"
+                                                                            placeholder="Mobile Number">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-12">
+                                                                    <select id="inputState"
+                                                                        class="form-select modal-date-inp">
+                                                                        <option selected>Date Of Birth</option>
+                                                                        <option>2000</option>
+                                                                        <option>2001</option>
+                                                                        <option>2002</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <div class="table-bdr"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mt-4">
+                                                                <div class="col-12">
+                                                                    <div class="user_details">
+                                                                        <h2 class="user_details_title">User Details</h2>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-md-6 col-12">
+                                                                    <input type="number"
+                                                                        class="form-control modal-pass-inp"
+                                                                        aria-label="Text input with dropdown button"
+                                                                        placeholder="Passport Number">
+                                                                </div>
+                                                                <div class="col-lg-6 col-md-6 col-12">
+                                                                    <select id="inputState"
+                                                                        class="form-select modal-country-inp">
+                                                                        <option selected>Passport Issuing Country
+                                                                        </option>
+                                                                        <option>India</option>
+                                                                        <option>USA</option>
+                                                                        <option>Dubai</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-md-6 col-12">
+                                                                    <select id="inputState"
+                                                                        class="form-select modal-pass-date-inp">
+                                                                        <option selected>Passport Expiration Date
+                                                                        </option>
+                                                                        <option>1</option>
+                                                                        <option>1</option>
+                                                                        <option>1</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn modal-close-btn"
+                                                            data-bs-dismiss="modal">Cancel</button>
+                                                        <button type="button" class="btn modal-save-btn">Save</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="saved_table">
+                                    <table class="table table-borderless">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="travel_table_heading">Name</th>
+                                                <th scope="col" class="travel_table_heading">Age</th>
+                                                <th scope="col" class="travel_table_heading">Gender</th>
+                                                <th scope="col" class="travel_table_heading">Contact Details</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="travel_table_data">Uttara kulkarni</td>
+                                                <td class="travel_table_data">23 Years</td>
+                                                <td class="travel_table_data">Female</td>
+                                                <td class="travel_table_data">+91 91111669911</td>
+                                                <td class="travel_table_data">
+                                                    <div class="table_btn">
+                                                        <a href="#">View Details</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="table-bdr"></div>
+                                    <table class="table table-borderless">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="travel_table_heading">Name</th>
+                                                <th scope="col" class="travel_table_heading">Age</th>
+                                                <th scope="col" class="travel_table_heading">Gender</th>
+                                                <th scope="col" class="travel_table_heading">Contact Details</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="travel_table_data">Uttara kulkarni</td>
+                                                <td class="travel_table_data">23 Years</td>
+                                                <td class="travel_table_data">Female</td>
+                                                <td class="travel_table_data">+91 91111669911</td>
+                                                <td class="travel_table_data">
+                                                    <div class="table_btn">
+                                                        <a href="#">View Details</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="table-bdr"></div>
+                                    <table class="table table-borderless">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="travel_table_heading">Name</th>
+                                                <th scope="col" class="travel_table_heading">Age</th>
+                                                <th scope="col" class="travel_table_heading">Gender</th>
+                                                <th scope="col" class="travel_table_heading">Contact Details</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="travel_table_data">Uttara kulkarni</td>
+                                                <td class="travel_table_data">23 Years</td>
+                                                <td class="travel_table_data">Female</td>
+                                                <td class="travel_table_data">+91 91111669911</td>
+                                                <td class="travel_table_data">
+                                                    <div class="table_btn">
+                                                        <a href="#">View Details</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-coupons" role="tabpanel"
+                                aria-labelledby="v-pills-coupons-tab">
+                                <div class="profile_title">
+                                    <h2>My Coupons</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="coupon_slider_main">
+                                            <div class="coupon_slider_details">
+                                                <div class="card-slider">
+                                                    <div class="card-container">
+                                                        <div class="card">
+                                                            <img src="./assets/images/manali.png" alt="">
+                                                            <div class="coupon_card_content">
+                                                                <h2>50% Off</h2>
+                                                                <p>on Manali Trips</p>
+                                                            </div>
+                                                            <div class="coupon_card_btn">
+                                                                <a href="#">Redeem Now</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/manali.png" alt="">
+                                                            <div class="coupon_card_content">
+                                                                <h2>50% Off</h2>
+                                                                <p>on Manali Trips</p>
+                                                            </div>
+                                                            <div class="coupon_card_btn">
+                                                                <a href="#">Redeem Now</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/manali.png" alt="">
+                                                            <div class="coupon_card_content">
+                                                                <h2>50% Off</h2>
+                                                                <p>on Manali Trips</p>
+                                                            </div>
+                                                            <div class="coupon_card_btn">
+                                                                <a href="#">Redeem Now</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/manali.png" alt="">
+                                                            <div class="coupon_card_content">
+                                                                <h2>50% Off</h2>
+                                                                <p>on Manali Trips</p>
+                                                            </div>
+                                                            <div class="coupon_card_btn">
+                                                                <a href="#">Redeem Now</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/manali.png" alt="">
+                                                            <div class="coupon_card_content">
+                                                                <h2>50% Off</h2>
+                                                                <p>on Manali Trips</p>
+                                                            </div>
+                                                            <div class="coupon_card_btn">
+                                                                <a href="#">Redeem Now</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/manali.png" alt="">
+                                                            <div class="coupon_card_content">
+                                                                <h2>50% Off</h2>
+                                                                <p>on Manali Trips</p>
+                                                            </div>
+                                                            <div class="coupon_card_btn">
+                                                                <a href="#">Redeem Now</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/manali.png" alt="">
+                                                            <div class="coupon_card_content">
+                                                                <h2>50% Off</h2>
+                                                                <p>on Manali Trips</p>
+                                                            </div>
+                                                            <div class="coupon_card_btn">
+                                                                <a href="#">Redeem Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-bucket" role="tabpanel"
+                                aria-labelledby="v-pills-bucket-tab">
+                                <div class="profile_title">
+                                    <h2>Bucket List</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="bucket_slider_main">
+                                            <div class="bucket_slider_details">
+                                                <div class="bucket-slider">
+                                                    <div class="card-container">
+                                                        <div class="card">
+                                                            <img src="./assets/images/india-slider.png" alt="">
+                                                            <div class="bucket_card_title_like">
+                                                                <div class="bucket_card_title">
+                                                                    <p>₹ 78,999 onwards</p>
+                                                                </div>
+                                                                <div class="bucket_card_like">
+                                                                    <img src="./assets/images/like.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bucket_card_btn">
+                                                                <p>India</p>
+                                                                <a href="#"><img src="./assets/images/right-i.png"
+                                                                        alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/fiji-slider.png" alt="">
+                                                            <div class="bucket_card_title_like">
+                                                                <div class="bucket_card_title">
+                                                                    <p>₹ 78,999 onwards</p>
+                                                                </div>
+                                                                <div class="bucket_card_like">
+                                                                    <img src="./assets/images/like.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bucket_card_btn">
+                                                                <p>Fiji</p>
+                                                                <a href="#"><img src="./assets/images/right-i.png"
+                                                                        alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/germany-slider.png" alt="">
+                                                            <div class="bucket_card_title_like">
+                                                                <div class="bucket_card_title">
+                                                                    <p>₹ 78,999 onwards</p>
+                                                                </div>
+                                                                <div class="bucket_card_like">
+                                                                    <img src="./assets/images/like.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bucket_card_btn">
+                                                                <p>Germany</p>
+                                                                <a href="#"><img src="./assets/images/right-i.png"
+                                                                        alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/tanzania.jpeg" alt="">
+                                                            <div class="bucket_card_title_like">
+                                                                <div class="bucket_card_title">
+                                                                    <p>₹ 78,999 onwards</p>
+                                                                </div>
+                                                                <div class="bucket_card_like">
+                                                                    <img src="./assets/images/like.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bucket_card_btn">
+                                                                <p>Tanzania</p>
+                                                                <a href="#"><img src="./assets/images/right-i.png"
+                                                                        alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/india-slider.png" alt="">
+                                                            <div class="bucket_card_title_like">
+                                                                <div class="bucket_card_title">
+                                                                    <p>₹ 78,999 onwards</p>
+                                                                </div>
+                                                                <div class="bucket_card_like">
+                                                                    <img src="./assets/images/like.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bucket_card_btn">
+                                                                <p>India</p>
+                                                                <a href="#"><img src="./assets/images/right-i.png"
+                                                                        alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/fiji-slider.png" alt="">
+                                                            <div class="bucket_card_title_like">
+                                                                <div class="bucket_card_title">
+                                                                    <p>₹ 78,999 onwards</p>
+                                                                </div>
+                                                                <div class="bucket_card_like">
+                                                                    <img src="./assets/images/like.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bucket_card_btn">
+                                                                <p>Fiji</p>
+                                                                <a href="#"><img src="./assets/images/right-i.png"
+                                                                        alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/germany-slider.png" alt="">
+                                                            <div class="bucket_card_title_like">
+                                                                <div class="bucket_card_title">
+                                                                    <p>₹ 78,999 onwards</p>
+                                                                </div>
+                                                                <div class="bucket_card_like">
+                                                                    <img src="./assets/images/like.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bucket_card_btn">
+                                                                <p>Germany</p>
+                                                                <a href="#"><img src="./assets/images/right-i.png"
+                                                                        alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card">
+                                                            <img src="./assets/images/tanzania.jpeg" alt="">
+                                                            <div class="bucket_card_title_like">
+                                                                <div class="bucket_card_title">
+                                                                    <p>₹ 78,999 onwards</p>
+                                                                </div>
+                                                                <div class="bucket_card_like">
+                                                                    <img src="./assets/images/like.png" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="bucket_card_btn">
+                                                                <p>Tanzania</p>
+                                                                <a href="#"><img src="./assets/images/right-i.png"
+                                                                        alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-12">
+                    <div class="footer_logo">
+                        <a href="#"><img src="./assets/images/trippo_logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="footer_lists">
+                        <ul>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                            <li><a href="FAQs.html">FAQs</a></li>
+                            <li><a href="#">Get a Call back</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="footer_lists">
+                        <ul>
+                            <li><a href="#">Search Destinations</a></li>
+                            <li><a href="#">Booking Conditions</a></li>
+                            <li><a href="#">My Reservations</a></li>
+                            <li><a href="#">Explore Packages</a></li>
+                            <li><a href="#">Safety Measures</a></li>
+                            <li><a href="#">Health Concerns</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="footer_contact_details">
+                        <div class="footer_contact_details_title">
+                            <h2>Contact Us</h2>
+                        </div>
+                        <div class="footer_contact_para">
+                            <a href="#">contact@trippobazaar.com</a>
+                            <p>+91 9999999999 | +91 8888888888</p>
+                        </div>
+                        <div class="footer_contact_btn">
+                            <p><span>Subscribe</span>&nbsp;to get exclusive deals</p>
+                            <div class="footer_inp">
+                                <input class="form-control" type="search" placeholder="Enter your email address"
+                                    aria-label="Search">
+                                <button type="submit">Get Deals</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer_last_copy_social">
+                        <div class="footer_copy">
+                            <p>&copy; Copyright.2024 - All Rights Reserved - Trippo Bazaar</p>
+                        </div>
+                        <div class="footer_social_icons">
+                            <a href="#">
+                                <img src="./assets/images/insta_i.png" alt="">
+                                <!-- <i class="fa-brands fa-instagram"></i> -->
+                            </a>
+                            <a href="#">
+                                <img src="./assets/images/twitter_i.png" alt="">
+                                <!-- <i class="fa-brands fa-twitter"></i> -->
+                            </a>
+                            <a href="#">
+                                <img src="./assets/images/facebook_i.png" alt="">
+                                <!-- <i class="fa-brands fa-facebook-f"></i> -->
+                            </a>
+                            <a href="#">
+                                <img src="./assets/images/youtube_i.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOTSTRAP JS LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- My Coupons Slider -->
+    <script>
+        cardSlider = document.querySelector(".card-slider");
+
+        let clientX = null;
+        let grabbing = false;
+        let prevDistanceScrolled = null;
+        let distanceToScroll;
+
+        cardSlider.addEventListener("mousedown", (e) => {
+            clientX = e.clientX;
+            grabbing = true;
+        })
+
+        cardSlider.addEventListener("mouseup", () => {
+            grabbing = false;
+            prevDistanceScrolled += distanceToScroll;
+        })
+
+        cardSlider.addEventListener("mousemove", (e) => {
+            if (grabbing) {
+                let newClientX = e.clientX;
+                distanceToScroll = newClientX - clientX;
+                cardSlider.style.transform = `translateX(${distanceToScroll + prevDistanceScrolled}px)`
+            }
+        })
+    </script>
+    <!-- My Coupons Slider -->
+
+    <!-- Bukcet List Slider -->
+    <script>
+        bucketSlider = document.querySelector(".bucket-slider");
+
+        let clientY = null;
+        let scrolling = false;
+        let prevCursorScrolled = null;
+        let cursorToScroll;
+
+        bucketSlider.addEventListener("mousedown", (e) => {
+            clientY = e.clientY;
+            scrolling = true;
+        })
+
+        bucketSlider.addEventListener("mouseup", () => {
+            scrolling = false;
+            prevCursorScrolled += cursorToScroll;
+        })
+
+        bucketSlider.addEventListener("mousemove", (e) => {
+            if (scrolling) {
+                let newClientY = e.clientY;
+                cursorToScroll = newClientY - clientY;
+                bucketSlider.style.transform = `translateX(${cursorToScroll + prevCursorScrolled}px)`
+            }
+        })
+    </script>
+    <!-- Bukcet List Slider -->
+</body>
+
+</html>
